@@ -2,6 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
+}
+
+:root{
+    --metallic-black: rgb(34, 34, 34);
+    --active-green: rgb(75, 200, 0);
+    --end-meeting: rgb(225, 34, 13);
+}
+
+body{
+    background-color: black;
 }
 
 ul{

@@ -6,10 +6,14 @@
     display: flex;
 }
 
+.flex-static{
+    flex-shrink: 0;
+}
+
 /* Debug */
 .debug{
-    background-color: rgba(0, 255, 0, 0.1);
-    border: 1px solid blue;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
 }
 
 .h100{
