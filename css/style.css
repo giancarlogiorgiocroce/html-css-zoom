@@ -5,14 +5,14 @@ header{
     height: 60px;
 }
 
-.header-icon-container{  
+.header-btn-container{  
     position: absolute;
     top: 10px;
     right: 0px;
 }
 
 .header-btn{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: var(--trasparent-white);
     padding: 3px 3px;
     margin: 0 5px;
     border-radius: 5px;
@@ -55,6 +55,19 @@ main{
     height: 95px;
     width: 190px;
     margin: 10px 5px;
+}
+
+main img{
+    width: 100%;
+}
+
+.tag{
+    background-color: var(--trasparent-white);
+    padding: 3px 3px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 /*
     /MAIN

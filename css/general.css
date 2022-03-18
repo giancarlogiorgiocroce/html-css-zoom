@@ -10,6 +10,7 @@
     --metallic-black: rgb(34, 34, 34);
     --active-green: rgb(75, 200, 0);
     --end-meeting: rgb(225, 34, 13);
+    --trasparent-white: rgba(255, 255, 255, 0.2);
 }
 
 body{
