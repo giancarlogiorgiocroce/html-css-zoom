@@ -79,14 +79,67 @@ main img{
 */
 footer{
     height: 60px;
+    background-color: var(--trasparent-white);
 
     justify-content: space-between;
 }
 
-footer nav{
-    height: 100%;
-    width: 60px;
+footer i{
+    font-size: 22px;
 }
+
+.icons-container{
+    align-items: center;
+}
+
+.icon-and-txt{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 5px;
+
+    text-transform: capitalize;
+}
+
+.icon-and-txt:active i{
+    color: var(--active-green);
+}
+
+.icon-chevron i{
+    align-self: center;
+    font-size: 10px;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+/* .icon-chevron:hover{
+    display: block;
+}
+
+.icon-chevron .menu{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+
+    position: absolute;
+    top: 0%;
+    left: 0;
+} */
+
+.nav-right{
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--trasparent-white);
+    padding: 0 10px;
+    height: 100%;
+}
+
+.nav-right p{
+    color: red;
+}
+
 /*
     /FOOTER
 */

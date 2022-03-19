@@ -10,6 +10,14 @@
     flex-shrink: 0;
 }
 
+.invisible{
+    display: none;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
 /* Debug */
 .debug{
     background-color: rgba(255, 255, 255, 0.2);
