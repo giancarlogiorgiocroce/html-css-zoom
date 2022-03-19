@@ -13,17 +13,14 @@ header{
 
 .header-btn{
     background-color: var(--trasparent-white);
-    padding: 3px 3px;
+    padding: 5px;
     margin: 0 5px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .fa-arrows-up-down-left-right{
     transform: rotate(45deg);
-}
-
-.header-btn p{
-    display: inline-block;
 }
 /*
     /HEADER
@@ -62,7 +59,7 @@ main img{
 }
 
 .tag{
-    background-color: var(--trasparent-white);
+    background-color: var(--trasparent-black);
     padding: 3px 3px;
 
     position: absolute;
