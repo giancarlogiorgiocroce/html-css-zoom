@@ -10,10 +10,6 @@
     flex-shrink: 0;
 }
 
-.invisible{
-    display: none;
-}
-
 .pointer:hover{
     cursor: pointer;
 }

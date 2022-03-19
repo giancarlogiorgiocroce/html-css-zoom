@@ -110,19 +110,9 @@ footer i{
     margin: 0 5px;
 }
 
-/* .icon-chevron:hover{
-    display: block;
+.nav-left p, .nav-center p{
+    margin-top: 5px;
 }
-
-.icon-chevron .menu{
-    height: 50px;
-    width: 100px;
-    background-color: white;
-
-    position: absolute;
-    top: 0%;
-    left: 0;
-} */
 
 .nav-right{
     align-items: center;
@@ -134,7 +124,7 @@ footer i{
 }
 
 .nav-right p{
-    color: red;
+    color: var(--end-meeting);
 }
 
 /*
